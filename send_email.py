@@ -1,3 +1,7 @@
+# trial code to try and send simple text as email.
+# check the send_html.py file for actual code which sends the tracking pixel.
+
+
 import smtplib, ssl
 import getpass
 

@@ -1,3 +1,6 @@
+# trials code to send sms
+# main code with flask app is at app.py file.
+
 import os
 from twilio.rest import Client
 
