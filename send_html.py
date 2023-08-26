@@ -2,9 +2,9 @@ import smtplib, ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-sender_email = "trials.chiduanush@gmail.com"
-receiver_email = "pariketrao2709@gmail.com"
-password = "uhtedjvnczphlosd"
+sender_email = "InputYourEmailAddress"
+receiver_email = "InputReceiversEmailAddress"
+password = "PutYourAppPasscodeForVScodeFromYourGoogleAccount"
 
 message = MIMEMultipart("alternative")
 email_subject = "pariket trial1"
