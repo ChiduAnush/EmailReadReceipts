@@ -7,7 +7,7 @@ receiver_email = "InputReceiversEmailAddress"
 password = "PutYourAppPasscodeForVScodeFromYourGoogleAccount"
 
 message = MIMEMultipart("alternative")
-email_subject = "pariket trial1"
+email_subject = "EnterYourEmailSubject"
 message["Subject"] = email_subject
 message["From"] = sender_email
 message["To"] = receiver_email

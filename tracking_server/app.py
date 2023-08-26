@@ -6,6 +6,7 @@ from twilio.rest import Client
 
 app = Flask(__name__)
 
+# below credentials for twilio: get them from twilio console.
 account_sid = "AC163244aee3909a200ebc7bc3d705cc6b"
 auth_token = "fd51d6d6253915854bc20b9fa1606601"
 client = Client(account_sid, auth_token)
@@ -22,8 +23,8 @@ def track_email(email_subject):
 
     message = client.messages.create(
         body=f"your email with subject {email_subject}was opened at {timestamp}",
-        from_="+14342774822",
-        to="+919136490125",
+        from_="+14342774822",  # get this phone number from your twilio account when u create it.
+        to="+919136490125",  # your own phone number
     )
 
     print(message.sid)
