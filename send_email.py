@@ -13,12 +13,6 @@ message = """\
 Subject: VERY IMPORTANT!
 
 This message is sent from Python, hello from chiduanush.
-OOLALALALA UOOOOOLELOOOOOOOOO
-
-Anime dekhna band karle, zyada hi fan service hai tere anime me.
-tsk tsk.
-
-vaise, aaj blue shirt me bade segsy lag rahe ho ;)
 
 """
 
